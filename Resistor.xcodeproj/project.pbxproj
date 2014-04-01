@@ -21,6 +21,19 @@
 		FCAAAA1918EB10AB00E3A54B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCAAA9FB18EB10AB00E3A54B /* UIKit.framework */; };
 		FCAAAA2118EB10AB00E3A54B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FCAAAA1F18EB10AB00E3A54B /* InfoPlist.strings */; };
 		FCAAAA2318EB10AB00E3A54B /* ResistorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FCAAAA2218EB10AB00E3A54B /* ResistorTests.m */; };
+		FCAAAA2D18EB347D00E3A54B /* resistor.png in Resources */ = {isa = PBXBuildFile; fileRef = FCAAAA2C18EB347D00E3A54B /* resistor.png */; };
+		FCAAAA3918EB382800E3A54B /* blue.png in Resources */ = {isa = PBXBuildFile; fileRef = FCAAAA2E18EB382800E3A54B /* blue.png */; };
+		FCAAAA3A18EB382800E3A54B /* grey.png in Resources */ = {isa = PBXBuildFile; fileRef = FCAAAA2F18EB382800E3A54B /* grey.png */; };
+		FCAAAA3B18EB382800E3A54B /* purple.png in Resources */ = {isa = PBXBuildFile; fileRef = FCAAAA3018EB382800E3A54B /* purple.png */; };
+		FCAAAA3C18EB382800E3A54B /* silver.png in Resources */ = {isa = PBXBuildFile; fileRef = FCAAAA3118EB382800E3A54B /* silver.png */; };
+		FCAAAA3D18EB382800E3A54B /* gold.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = FCAAAA3218EB382800E3A54B /* gold.jpeg */; };
+		FCAAAA3E18EB382800E3A54B /* white.png in Resources */ = {isa = PBXBuildFile; fileRef = FCAAAA3318EB382800E3A54B /* white.png */; };
+		FCAAAA3F18EB382800E3A54B /* green.png in Resources */ = {isa = PBXBuildFile; fileRef = FCAAAA3418EB382800E3A54B /* green.png */; };
+		FCAAAA4018EB382800E3A54B /* yellow.png in Resources */ = {isa = PBXBuildFile; fileRef = FCAAAA3518EB382800E3A54B /* yellow.png */; };
+		FCAAAA4118EB382800E3A54B /* brown.png in Resources */ = {isa = PBXBuildFile; fileRef = FCAAAA3618EB382800E3A54B /* brown.png */; };
+		FCAAAA4218EB382800E3A54B /* orange.png in Resources */ = {isa = PBXBuildFile; fileRef = FCAAAA3718EB382800E3A54B /* orange.png */; };
+		FCAAAA4318EB382800E3A54B /* black.png in Resources */ = {isa = PBXBuildFile; fileRef = FCAAAA3818EB382800E3A54B /* black.png */; };
+		FCAAAA4518EB3AC500E3A54B /* red.png in Resources */ = {isa = PBXBuildFile; fileRef = FCAAAA4418EB3AC500E3A54B /* red.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +66,19 @@
 		FCAAAA1E18EB10AB00E3A54B /* ResistorTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ResistorTests-Info.plist"; sourceTree = "<group>"; };
 		FCAAAA2018EB10AB00E3A54B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		FCAAAA2218EB10AB00E3A54B /* ResistorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ResistorTests.m; sourceTree = "<group>"; };
+		FCAAAA2C18EB347D00E3A54B /* resistor.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = resistor.png; sourceTree = "<group>"; };
+		FCAAAA2E18EB382800E3A54B /* blue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blue.png; sourceTree = "<group>"; };
+		FCAAAA2F18EB382800E3A54B /* grey.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = grey.png; sourceTree = "<group>"; };
+		FCAAAA3018EB382800E3A54B /* purple.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = purple.png; sourceTree = "<group>"; };
+		FCAAAA3118EB382800E3A54B /* silver.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = silver.png; sourceTree = "<group>"; };
+		FCAAAA3218EB382800E3A54B /* gold.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = gold.jpeg; sourceTree = "<group>"; };
+		FCAAAA3318EB382800E3A54B /* white.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = white.png; sourceTree = "<group>"; };
+		FCAAAA3418EB382800E3A54B /* green.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = green.png; sourceTree = "<group>"; };
+		FCAAAA3518EB382800E3A54B /* yellow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = yellow.png; sourceTree = "<group>"; };
+		FCAAAA3618EB382800E3A54B /* brown.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = brown.png; sourceTree = "<group>"; };
+		FCAAAA3718EB382800E3A54B /* orange.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = orange.png; sourceTree = "<group>"; };
+		FCAAAA3818EB382800E3A54B /* black.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = black.png; sourceTree = "<group>"; };
+		FCAAAA4418EB3AC500E3A54B /* red.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = red.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,6 +152,19 @@
 		FCAAA9FE18EB10AB00E3A54B /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				FCAAAA2E18EB382800E3A54B /* blue.png */,
+				FCAAAA4418EB3AC500E3A54B /* red.png */,
+				FCAAAA2F18EB382800E3A54B /* grey.png */,
+				FCAAAA3018EB382800E3A54B /* purple.png */,
+				FCAAAA3118EB382800E3A54B /* silver.png */,
+				FCAAAA3218EB382800E3A54B /* gold.jpeg */,
+				FCAAAA3318EB382800E3A54B /* white.png */,
+				FCAAAA3418EB382800E3A54B /* green.png */,
+				FCAAAA3518EB382800E3A54B /* yellow.png */,
+				FCAAAA3618EB382800E3A54B /* brown.png */,
+				FCAAAA3718EB382800E3A54B /* orange.png */,
+				FCAAAA3818EB382800E3A54B /* black.png */,
+				FCAAAA2C18EB347D00E3A54B /* resistor.png */,
 				FCAAA9FF18EB10AB00E3A54B /* Resistor-Info.plist */,
 				FCAAAA0018EB10AB00E3A54B /* InfoPlist.strings */,
 				FCAAAA0318EB10AB00E3A54B /* main.m */,
@@ -228,9 +267,22 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FCAAAA4118EB382800E3A54B /* brown.png in Resources */,
 				FCAAAA1018EB10AB00E3A54B /* Images.xcassets in Resources */,
+				FCAAAA4018EB382800E3A54B /* yellow.png in Resources */,
+				FCAAAA3F18EB382800E3A54B /* green.png in Resources */,
+				FCAAAA3918EB382800E3A54B /* blue.png in Resources */,
+				FCAAAA4518EB3AC500E3A54B /* red.png in Resources */,
+				FCAAAA3C18EB382800E3A54B /* silver.png in Resources */,
+				FCAAAA3D18EB382800E3A54B /* gold.jpeg in Resources */,
+				FCAAAA3B18EB382800E3A54B /* purple.png in Resources */,
+				FCAAAA3E18EB382800E3A54B /* white.png in Resources */,
+				FCAAAA3A18EB382800E3A54B /* grey.png in Resources */,
 				FCAAAA0218EB10AB00E3A54B /* InfoPlist.strings in Resources */,
+				FCAAAA2D18EB347D00E3A54B /* resistor.png in Resources */,
 				FCAAAA0B18EB10AB00E3A54B /* Main.storyboard in Resources */,
+				FCAAAA4218EB382800E3A54B /* orange.png in Resources */,
+				FCAAAA4318EB382800E3A54B /* black.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
