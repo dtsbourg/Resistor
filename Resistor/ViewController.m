@@ -118,6 +118,11 @@
             return [self.colorArray objectAtIndex:row];
             break;
         case 2:
+            if ([self.nbBandes.text isEqualToString:@"4"])
+            {
+                return [self.multiplierArray objectAtIndex:row];
+            }
+            else
             return [self.colorArray objectAtIndex:row];
             break;
         case 3:
@@ -150,8 +155,49 @@
             break;
             
         case 2:
-            self.seg3.image=[UIImage imageNamed:[self.segArray objectAtIndex:row]];
-            thirdDigit = row;
+            if ([self.nbBandes.text isEqualToString:@"4"])
+            {
+                self.seg4.image=[UIImage imageNamed:[self.segMultArray objectAtIndex:row]];
+                switch(row)
+                {
+                    case 0:
+                        multiplier = 0.01;
+                        break;
+                    case 1:
+                        multiplier = 0.1;
+                        break;
+                    case 2:
+                        multiplier = 1;
+                        break;
+                    case 3:
+                        multiplier = 10;
+                        break;
+                    case 4:
+                        multiplier = 100;
+                        break;
+                    case 5:
+                        multiplier = 1000;
+                        break;
+                    case 6:
+                        multiplier = 10000;
+                        break;
+                    case 7:
+                        multiplier = 100000;
+                        break;
+                    case 8:
+                        multiplier = 1000000;
+                        break;
+                    case 9:
+                        multiplier = 10000000;
+                        break;
+                }
+            }
+            else
+            {
+                self.seg3.image=[UIImage imageNamed:[self.segArray objectAtIndex:row]];
+                thirdDigit = row;
+            }
+            
             break;
             
         case 3:
@@ -248,8 +294,8 @@
     self.resistorValue.text = [NSString stringWithFormat:@"%.0f Ω", ((firstDigit+secondDigit*10+thirdDigit*100)*multiplier)];
     else if (((firstDigit+secondDigit*10+thirdDigit*100)*multiplier) < 1000000)
     self.resistorValue.text = [NSString stringWithFormat:@"%.2f kΩ", ((firstDigit+secondDigit*10+thirdDigit*100)*multiplier)/1000];
-    else
-    self.resistorValue.text = [NSString stringWithFormat:@"%.2f MΩ", ((firstDigit+secondDigit*10+thirdDigit*100)*multiplier)/1000000];
+    else if (((firstDigit+secondDigit*10+thirdDigit*100)*multiplier) < 1000000000)
+    self.resistorValue.text = [NSString stringWithFormat:@"%.2f GΩ", ((firstDigit+secondDigit*10+thirdDigit*100)*multiplier)/1000000];
     
     self.temperatureLabel.text = [NSString stringWithFormat:@"température : %@", self.temperatureString];
     self.toleranceLabel.text = [NSString stringWithFormat:@"Tolérance : %@", self.tolString];
