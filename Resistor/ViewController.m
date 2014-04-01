@@ -23,32 +23,43 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
-    self.colorArray  = [[NSArray alloc]initWithObjects:@"Noir",@"Marron",@"Rouge",@"Orange",@"Jaune",
-                        @"Vert",@"Bleu",@"Violet",@"Gris",@"Blanc", nil];
+    self.colorArray  = [[NSArray alloc]initWithObjects:NSLocalizedString(@"Noir", nil), NSLocalizedString(@"Marron", nil),
+                        NSLocalizedString(@"Rouge", nil), NSLocalizedString(@"Orange", @"color"),
+                        NSLocalizedString(@"Jaune", nil), NSLocalizedString( @"Vert", nil),
+                        NSLocalizedString(@"Bleu", nil), NSLocalizedString(@"Violet", nil),
+                        NSLocalizedString(@"Gris", nil),NSLocalizedString(@"Blanc", nil) , nil];
     self.segArray = [[NSArray alloc]initWithObjects:@"black.png", @"brown.png",@"red.png",@"orange.png",@"yellow.png",
                      @"green.png",@"blue.png",@"purple.png",@"grey.png",@"white.png", nil];
     
     
     
-    self.multiplierArray = [[NSArray alloc]initWithObjects:@"Argenté",@"Doré",@"Noir",@"Marron",@"Rouge",@"Orange",@"Jaune",
-                        @"Vert",@"Bleu",@"Violet", nil];
+    self.multiplierArray = [[NSArray alloc]initWithObjects:NSLocalizedString(@"Argenté", nil), NSLocalizedString(@"Doré", nil),
+                            NSLocalizedString(@"Noir", nil), NSLocalizedString(@"Marron", nil),
+                            NSLocalizedString(@"Rouge", nil), NSLocalizedString(@"Orange", @"color"),
+                            NSLocalizedString(@"Jaune", nil), NSLocalizedString( @"Vert", nil),
+                            NSLocalizedString(@"Bleu", nil), NSLocalizedString(@"Violet", nil), nil];
     self.segMultArray = [[NSArray alloc]initWithObjects:@"silver.png",@"gold.jpeg",@"black.png", @"brown.png",@"red.png",@"orange.png",@"yellow.png",@"green.png",@"blue.png",@"purple.png", nil];
     
     
-    self.tolArray = [[NSArray alloc]initWithObjects:@"Argenté",@"Doré",@"Marron",@"Rouge",@"Orange",@"Jaune",
-                            @"Vert",@"Bleu",@"Violet", nil];
+    self.tolArray = [[NSArray alloc]initWithObjects:NSLocalizedString(@"Argenté", nil), NSLocalizedString(@"Doré", nil),
+                     NSLocalizedString(@"Marron", nil), NSLocalizedString(@"Rouge", nil),
+                     NSLocalizedString(@"Orange", @"color"), NSLocalizedString(@"Jaune", nil),
+                     NSLocalizedString( @"Vert", nil), NSLocalizedString(@"Bleu", nil),
+                     NSLocalizedString(@"Violet", nil), nil];
     self.segTolArray = [[NSArray alloc]initWithObjects:@"silver.png",@"gold.jpeg",@"brown.png",@"red.png", @"orange.png",@"yellow.png",@"green.png",@"blue.png",@"purple.png", nil];
     
     
-    self.tempArray = [[NSArray alloc]initWithObjects:@"Marron",@"Rouge",@"Orange",@"Jaune", nil];
+    self.tempArray = [[NSArray alloc]initWithObjects:NSLocalizedString(@"Marron", nil), NSLocalizedString(@"Rouge", nil),
+                      NSLocalizedString(@"Orange", @"color"), NSLocalizedString(@"Jaune", nil), nil];
     self.segTempArray = [[NSArray alloc]initWithObjects:@"brown.png",@"red.png", @"orange.png",@"yellow.png", nil];
-    
     
     
     [self.picker selectRow:2 inComponent:3 animated:NO];
     
     firstDigit = 0; secondDigit = 0; thirdDigit = 0; multiplier = 1; self.temperatureString = @"100 ppm";
     self.tolString = @"± 10%";
+    self.toleranceLabel.text = NSLocalizedString(@"Tolérance : ± 10%", nil);
+    self.temperatureLabel.text = NSLocalizedString(@"Coefficient de température : 100 ppm/°C", nil);
 }
 
 - (void)didReceiveMemoryWarning
@@ -62,25 +73,27 @@
     if ([self.nbBandes.text isEqualToString:@"4"]) {
         self.seg6.hidden = YES;
         self.seg4.hidden = YES;
+        self.temperatureLabel.hidden = YES;
         return 4;
     }
     
     else if ([self.nbBandes.text isEqualToString:@"5"]) {
         self.seg6.hidden = YES;
         self.seg4.hidden = NO;
+        self.temperatureLabel.hidden = YES;
         return 5;
     }
     
     else if ([self.nbBandes.text isEqualToString:@"6"]) {
         self.seg6.hidden = NO;
         self.seg4.hidden = NO;
+        self.temperatureLabel.hidden = NO;
         return 6;
     }
     
     else return 6;
 }
 
-// returns the # of rows in each component..
 - (NSInteger)pickerView:(UIPickerView *)pickerView numberOfRowsInComponent:(NSInteger)component
 {
     switch (component) {
@@ -270,16 +283,16 @@
             switch(row)
             {
                 case 0:
-                    self.temperatureString = @"100 ppm";
+                    self.temperatureString = @"100 ppm/°C";
                     break;
                 case 1:
-                    self.temperatureString = @"50 ppm";
+                    self.temperatureString = @"50 ppm/°C";
                     break;
                 case 2:
-                    self.temperatureString = @"15 ppm";
+                    self.temperatureString = @"15 ppm/°C";
                     break;
                 case 3:
-                    self.temperatureString = @"25 ppm";
+                    self.temperatureString = @"25 ppm/°C";
                     break;
             }
             break;
@@ -297,8 +310,8 @@
     else if (((firstDigit+secondDigit*10+thirdDigit*100)*multiplier) < 1000000000)
     self.resistorValue.text = [NSString stringWithFormat:@"%.2f GΩ", ((firstDigit+secondDigit*10+thirdDigit*100)*multiplier)/1000000];
     
-    self.temperatureLabel.text = [NSString stringWithFormat:@"température : %@", self.temperatureString];
-    self.toleranceLabel.text = [NSString stringWithFormat:@"Tolérance : %@", self.tolString];
+    self.temperatureLabel.text = [NSString stringWithFormat:NSLocalizedString(@"température : %@", self.temperatureString), nil ];
+    self.toleranceLabel.text = [NSString stringWithFormat:NSLocalizedString(@"Tolérance : %@", nil), self.tolString];
     
 }
 
