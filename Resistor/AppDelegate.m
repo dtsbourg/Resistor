@@ -34,6 +34,14 @@
         }
         
     }
+    
+    else if (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPad)
+    {
+        UIStoryboard *storyBoard;
+        storyBoard = [UIStoryboard storyboardWithName:@"MainiPad" bundle:nil];
+        UIViewController *initViewController = [storyBoard instantiateInitialViewController];
+        [self.window setRootViewController:initViewController];
+    }
     return YES;
 }
 							

@@ -310,7 +310,8 @@
     else if (((firstDigit+secondDigit*10+thirdDigit*100)*multiplier) < 1000000000)
     self.resistorValue.text = [NSString stringWithFormat:@"%.2f GΩ", ((firstDigit+secondDigit*10+thirdDigit*100)*multiplier)/1000000];
     
-    self.temperatureLabel.text = [NSString stringWithFormat:NSLocalizedString(@"température : %@", self.temperatureString), nil ];
+    self.temperatureLabel.text = [NSString stringWithFormat:NSLocalizedString(@"Coefficient de température : %@", nil), self.temperatureString];
+    
     self.toleranceLabel.text = [NSString stringWithFormat:NSLocalizedString(@"Tolérance : %@", nil), self.tolString];
     
 }
