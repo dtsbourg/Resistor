@@ -323,6 +323,18 @@
     double value = [sender value];
     [self.nbBandes setText:[NSString stringWithFormat:@"%d", (int)value]];
     
+    if (value == 5)
+    {
+        self.seg3.image = [UIImage imageNamed:@"black.png"];
+        self.seg4.image = [UIImage imageNamed:@"black.png"];
+        self.seg5.image = [UIImage imageNamed:@"silver.png"];
+    }
+    
+    else if (value == 4)
+    {
+        self.seg3.image = [UIImage imageNamed:@"silver.png"];
+        self.seg5.image = [UIImage imageNamed:@"black.png"];
+    }
     [self.picker reloadAllComponents];
 }
 

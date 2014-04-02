@@ -53,7 +53,7 @@
                                 <rect key="frame" x="268" y="194" width="13" height="47"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="gold.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="he0-HG-kWV">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="black.png" translatesAutoresizingMaskIntoConstraints="NO" id="he0-HG-kWV">
                                 <rect key="frame" x="326" y="194" width="13" height="47"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -130,7 +130,6 @@
     <resources>
         <image name="black.png" width="1920" height="1080"/>
         <image name="brown.png" width="680" height="480"/>
-        <image name="gold.jpeg" width="105" height="405"/>
         <image name="resistor.png" width="417" height="80"/>
         <image name="silver.png" width="600" height="300"/>
     </resources>
