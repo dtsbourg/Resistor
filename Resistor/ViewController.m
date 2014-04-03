@@ -38,7 +38,7 @@
                             NSLocalizedString(@"Rouge", nil), NSLocalizedString(@"Orange", @"color"),
                             NSLocalizedString(@"Jaune", nil), NSLocalizedString( @"Vert", nil),
                             NSLocalizedString(@"Bleu", nil), NSLocalizedString(@"Violet", nil), nil];
-    self.segMultArray = [[NSArray alloc]initWithObjects:@"silver.png",@"gold.jpeg",@"black.png", @"brown.png",@"red.png",@"orange.png",@"yellow.png",@"green.png",@"blue.png",@"purple.png", nil];
+    self.segMultArray = [[NSArray alloc]initWithObjects:@"silver.png",@"gold.png",@"black.png", @"brown.png",@"red.png",@"orange.png",@"yellow.png",@"green.png",@"blue.png",@"purple.png", nil];
     
     
     self.tolArray = [[NSArray alloc]initWithObjects:NSLocalizedString(@"Argenté", nil), NSLocalizedString(@"Doré", nil),
@@ -46,7 +46,7 @@
                      NSLocalizedString(@"Orange", @"color"), NSLocalizedString(@"Jaune", nil),
                      NSLocalizedString( @"Vert", nil), NSLocalizedString(@"Bleu", nil),
                      NSLocalizedString(@"Violet", nil), nil];
-    self.segTolArray = [[NSArray alloc]initWithObjects:@"silver.png",@"gold.jpeg",@"brown.png",@"red.png", @"orange.png",@"yellow.png",@"green.png",@"blue.png",@"purple.png", nil];
+    self.segTolArray = [[NSArray alloc]initWithObjects:@"silver.png",@"gold.png",@"brown.png",@"red.png", @"orange.png",@"yellow.png",@"green.png",@"blue.png",@"purple.png", nil];
     
     
     self.tempArray = [[NSArray alloc]initWithObjects:NSLocalizedString(@"Marron", nil), NSLocalizedString(@"Rouge", nil),
@@ -170,7 +170,7 @@
         case 2:
             if ([self.nbBandes.text isEqualToString:@"4"])
             {
-                self.seg4.image=[UIImage imageNamed:[self.segMultArray objectAtIndex:row]];
+                self.seg3.image=[UIImage imageNamed:[self.segMultArray objectAtIndex:row]];
                 switch(row)
                 {
                     case 0:
@@ -325,6 +325,9 @@
     
     if (value == 5)
     {
+        
+        [self.picker selectRow:1 inComponent:3 animated:NO];
+
         self.seg3.image = [UIImage imageNamed:@"black.png"];
         self.seg4.image = [UIImage imageNamed:@"black.png"];
         self.seg5.image = [UIImage imageNamed:@"silver.png"];
@@ -334,6 +337,10 @@
     {
         self.seg3.image = [UIImage imageNamed:@"silver.png"];
         self.seg5.image = [UIImage imageNamed:@"black.png"];
+        
+    }
+    for (int i=0; i< value; i++) {
+        [self.picker selectRow:0 inComponent:i animated:NO];
     }
     [self.picker reloadAllComponents];
 }

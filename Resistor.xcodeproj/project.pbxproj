@@ -22,20 +22,20 @@
 		FCAAAA2118EB10AB00E3A54B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FCAAAA1F18EB10AB00E3A54B /* InfoPlist.strings */; };
 		FCAAAA2318EB10AB00E3A54B /* ResistorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FCAAAA2218EB10AB00E3A54B /* ResistorTests.m */; };
 		FCAAAA2D18EB347D00E3A54B /* resistor.png in Resources */ = {isa = PBXBuildFile; fileRef = FCAAAA2C18EB347D00E3A54B /* resistor.png */; };
-		FCAAAA3918EB382800E3A54B /* blue.png in Resources */ = {isa = PBXBuildFile; fileRef = FCAAAA2E18EB382800E3A54B /* blue.png */; };
-		FCAAAA3A18EB382800E3A54B /* grey.png in Resources */ = {isa = PBXBuildFile; fileRef = FCAAAA2F18EB382800E3A54B /* grey.png */; };
-		FCAAAA3B18EB382800E3A54B /* purple.png in Resources */ = {isa = PBXBuildFile; fileRef = FCAAAA3018EB382800E3A54B /* purple.png */; };
-		FCAAAA3C18EB382800E3A54B /* silver.png in Resources */ = {isa = PBXBuildFile; fileRef = FCAAAA3118EB382800E3A54B /* silver.png */; };
-		FCAAAA3D18EB382800E3A54B /* gold.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = FCAAAA3218EB382800E3A54B /* gold.jpeg */; };
-		FCAAAA3E18EB382800E3A54B /* white.png in Resources */ = {isa = PBXBuildFile; fileRef = FCAAAA3318EB382800E3A54B /* white.png */; };
-		FCAAAA3F18EB382800E3A54B /* green.png in Resources */ = {isa = PBXBuildFile; fileRef = FCAAAA3418EB382800E3A54B /* green.png */; };
-		FCAAAA4018EB382800E3A54B /* yellow.png in Resources */ = {isa = PBXBuildFile; fileRef = FCAAAA3518EB382800E3A54B /* yellow.png */; };
-		FCAAAA4118EB382800E3A54B /* brown.png in Resources */ = {isa = PBXBuildFile; fileRef = FCAAAA3618EB382800E3A54B /* brown.png */; };
-		FCAAAA4218EB382800E3A54B /* orange.png in Resources */ = {isa = PBXBuildFile; fileRef = FCAAAA3718EB382800E3A54B /* orange.png */; };
-		FCAAAA4318EB382800E3A54B /* black.png in Resources */ = {isa = PBXBuildFile; fileRef = FCAAAA3818EB382800E3A54B /* black.png */; };
-		FCAAAA4518EB3AC500E3A54B /* red.png in Resources */ = {isa = PBXBuildFile; fileRef = FCAAAA4418EB3AC500E3A54B /* red.png */; };
 		FCAAAA4718EBBEBD00E3A54B /* Main4s.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCAAAA4618EBBEBD00E3A54B /* Main4s.storyboard */; };
 		FCAAAA4918EBC01400E3A54B /* MainiPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCAAAA4818EBC01400E3A54B /* MainiPad.storyboard */; };
+		FCAAAA5618EC7CE300E3A54B /* black.png in Resources */ = {isa = PBXBuildFile; fileRef = FCAAAA4A18EC7CE300E3A54B /* black.png */; };
+		FCAAAA5718EC7CE300E3A54B /* blue.png in Resources */ = {isa = PBXBuildFile; fileRef = FCAAAA4B18EC7CE300E3A54B /* blue.png */; };
+		FCAAAA5818EC7CE300E3A54B /* brown.png in Resources */ = {isa = PBXBuildFile; fileRef = FCAAAA4C18EC7CE300E3A54B /* brown.png */; };
+		FCAAAA5918EC7CE300E3A54B /* gold.png in Resources */ = {isa = PBXBuildFile; fileRef = FCAAAA4D18EC7CE300E3A54B /* gold.png */; };
+		FCAAAA5A18EC7CE300E3A54B /* green.png in Resources */ = {isa = PBXBuildFile; fileRef = FCAAAA4E18EC7CE300E3A54B /* green.png */; };
+		FCAAAA5B18EC7CE300E3A54B /* grey.png in Resources */ = {isa = PBXBuildFile; fileRef = FCAAAA4F18EC7CE300E3A54B /* grey.png */; };
+		FCAAAA5C18EC7CE300E3A54B /* orange.png in Resources */ = {isa = PBXBuildFile; fileRef = FCAAAA5018EC7CE300E3A54B /* orange.png */; };
+		FCAAAA5D18EC7CE300E3A54B /* purple.png in Resources */ = {isa = PBXBuildFile; fileRef = FCAAAA5118EC7CE300E3A54B /* purple.png */; };
+		FCAAAA5E18EC7CE300E3A54B /* red.png in Resources */ = {isa = PBXBuildFile; fileRef = FCAAAA5218EC7CE300E3A54B /* red.png */; };
+		FCAAAA5F18EC7CE300E3A54B /* silver.png in Resources */ = {isa = PBXBuildFile; fileRef = FCAAAA5318EC7CE300E3A54B /* silver.png */; };
+		FCAAAA6018EC7CE300E3A54B /* white.png in Resources */ = {isa = PBXBuildFile; fileRef = FCAAAA5418EC7CE300E3A54B /* white.png */; };
+		FCAAAA6118EC7CE300E3A54B /* yellow.png in Resources */ = {isa = PBXBuildFile; fileRef = FCAAAA5518EC7CE300E3A54B /* yellow.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,20 +69,20 @@
 		FCAAAA2018EB10AB00E3A54B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		FCAAAA2218EB10AB00E3A54B /* ResistorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ResistorTests.m; sourceTree = "<group>"; };
 		FCAAAA2C18EB347D00E3A54B /* resistor.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = resistor.png; sourceTree = "<group>"; };
-		FCAAAA2E18EB382800E3A54B /* blue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blue.png; sourceTree = "<group>"; };
-		FCAAAA2F18EB382800E3A54B /* grey.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = grey.png; sourceTree = "<group>"; };
-		FCAAAA3018EB382800E3A54B /* purple.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = purple.png; sourceTree = "<group>"; };
-		FCAAAA3118EB382800E3A54B /* silver.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = silver.png; sourceTree = "<group>"; };
-		FCAAAA3218EB382800E3A54B /* gold.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = gold.jpeg; sourceTree = "<group>"; };
-		FCAAAA3318EB382800E3A54B /* white.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = white.png; sourceTree = "<group>"; };
-		FCAAAA3418EB382800E3A54B /* green.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = green.png; sourceTree = "<group>"; };
-		FCAAAA3518EB382800E3A54B /* yellow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = yellow.png; sourceTree = "<group>"; };
-		FCAAAA3618EB382800E3A54B /* brown.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = brown.png; sourceTree = "<group>"; };
-		FCAAAA3718EB382800E3A54B /* orange.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = orange.png; sourceTree = "<group>"; };
-		FCAAAA3818EB382800E3A54B /* black.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = black.png; sourceTree = "<group>"; };
-		FCAAAA4418EB3AC500E3A54B /* red.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = red.png; sourceTree = "<group>"; };
 		FCAAAA4618EBBEBD00E3A54B /* Main4s.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main4s.storyboard; sourceTree = "<group>"; };
 		FCAAAA4818EBC01400E3A54B /* MainiPad.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MainiPad.storyboard; sourceTree = "<group>"; };
+		FCAAAA4A18EC7CE300E3A54B /* black.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = black.png; sourceTree = "<group>"; };
+		FCAAAA4B18EC7CE300E3A54B /* blue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blue.png; sourceTree = "<group>"; };
+		FCAAAA4C18EC7CE300E3A54B /* brown.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = brown.png; sourceTree = "<group>"; };
+		FCAAAA4D18EC7CE300E3A54B /* gold.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gold.png; sourceTree = "<group>"; };
+		FCAAAA4E18EC7CE300E3A54B /* green.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = green.png; sourceTree = "<group>"; };
+		FCAAAA4F18EC7CE300E3A54B /* grey.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = grey.png; sourceTree = "<group>"; };
+		FCAAAA5018EC7CE300E3A54B /* orange.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = orange.png; sourceTree = "<group>"; };
+		FCAAAA5118EC7CE300E3A54B /* purple.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = purple.png; sourceTree = "<group>"; };
+		FCAAAA5218EC7CE300E3A54B /* red.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = red.png; sourceTree = "<group>"; };
+		FCAAAA5318EC7CE300E3A54B /* silver.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = silver.png; sourceTree = "<group>"; };
+		FCAAAA5418EC7CE300E3A54B /* white.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = white.png; sourceTree = "<group>"; };
+		FCAAAA5518EC7CE300E3A54B /* yellow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = yellow.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -158,18 +158,18 @@
 		FCAAA9FE18EB10AB00E3A54B /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				FCAAAA2E18EB382800E3A54B /* blue.png */,
-				FCAAAA4418EB3AC500E3A54B /* red.png */,
-				FCAAAA2F18EB382800E3A54B /* grey.png */,
-				FCAAAA3018EB382800E3A54B /* purple.png */,
-				FCAAAA3118EB382800E3A54B /* silver.png */,
-				FCAAAA3218EB382800E3A54B /* gold.jpeg */,
-				FCAAAA3318EB382800E3A54B /* white.png */,
-				FCAAAA3418EB382800E3A54B /* green.png */,
-				FCAAAA3518EB382800E3A54B /* yellow.png */,
-				FCAAAA3618EB382800E3A54B /* brown.png */,
-				FCAAAA3718EB382800E3A54B /* orange.png */,
-				FCAAAA3818EB382800E3A54B /* black.png */,
+				FCAAAA4A18EC7CE300E3A54B /* black.png */,
+				FCAAAA4B18EC7CE300E3A54B /* blue.png */,
+				FCAAAA4C18EC7CE300E3A54B /* brown.png */,
+				FCAAAA4D18EC7CE300E3A54B /* gold.png */,
+				FCAAAA4E18EC7CE300E3A54B /* green.png */,
+				FCAAAA4F18EC7CE300E3A54B /* grey.png */,
+				FCAAAA5018EC7CE300E3A54B /* orange.png */,
+				FCAAAA5118EC7CE300E3A54B /* purple.png */,
+				FCAAAA5218EC7CE300E3A54B /* red.png */,
+				FCAAAA5318EC7CE300E3A54B /* silver.png */,
+				FCAAAA5418EC7CE300E3A54B /* white.png */,
+				FCAAAA5518EC7CE300E3A54B /* yellow.png */,
 				FCAAAA2C18EB347D00E3A54B /* resistor.png */,
 				FCAAA9FF18EB10AB00E3A54B /* Resistor-Info.plist */,
 				FCAAAA0018EB10AB00E3A54B /* InfoPlist.strings */,
@@ -244,6 +244,9 @@
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = "Dylan Bourgeois";
 				TargetAttributes = {
+					FCAAA9F318EB10AB00E3A54B = {
+						DevelopmentTeam = DRXTS3ZU8M;
+					};
 					FCAAAA1418EB10AB00E3A54B = {
 						TestTargetID = FCAAA9F318EB10AB00E3A54B;
 					};
@@ -273,24 +276,24 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FCAAAA4118EB382800E3A54B /* brown.png in Resources */,
 				FCAAAA1018EB10AB00E3A54B /* Images.xcassets in Resources */,
-				FCAAAA4018EB382800E3A54B /* yellow.png in Resources */,
-				FCAAAA3F18EB382800E3A54B /* green.png in Resources */,
-				FCAAAA3918EB382800E3A54B /* blue.png in Resources */,
-				FCAAAA4518EB3AC500E3A54B /* red.png in Resources */,
-				FCAAAA3C18EB382800E3A54B /* silver.png in Resources */,
-				FCAAAA3D18EB382800E3A54B /* gold.jpeg in Resources */,
-				FCAAAA3B18EB382800E3A54B /* purple.png in Resources */,
-				FCAAAA3E18EB382800E3A54B /* white.png in Resources */,
-				FCAAAA3A18EB382800E3A54B /* grey.png in Resources */,
+				FCAAAA6118EC7CE300E3A54B /* yellow.png in Resources */,
+				FCAAAA5A18EC7CE300E3A54B /* green.png in Resources */,
+				FCAAAA5F18EC7CE300E3A54B /* silver.png in Resources */,
+				FCAAAA5C18EC7CE300E3A54B /* orange.png in Resources */,
+				FCAAAA5E18EC7CE300E3A54B /* red.png in Resources */,
+				FCAAAA5B18EC7CE300E3A54B /* grey.png in Resources */,
+				FCAAAA5918EC7CE300E3A54B /* gold.png in Resources */,
+				FCAAAA6018EC7CE300E3A54B /* white.png in Resources */,
+				FCAAAA5618EC7CE300E3A54B /* black.png in Resources */,
+				FCAAAA5818EC7CE300E3A54B /* brown.png in Resources */,
 				FCAAAA0218EB10AB00E3A54B /* InfoPlist.strings in Resources */,
+				FCAAAA5718EC7CE300E3A54B /* blue.png in Resources */,
+				FCAAAA5D18EC7CE300E3A54B /* purple.png in Resources */,
 				FCAAAA2D18EB347D00E3A54B /* resistor.png in Resources */,
 				FCAAAA4918EBC01400E3A54B /* MainiPad.storyboard in Resources */,
 				FCAAAA4718EBBEBD00E3A54B /* Main4s.storyboard in Resources */,
 				FCAAAA0B18EB10AB00E3A54B /* Main.storyboard in Resources */,
-				FCAAAA4218EB382800E3A54B /* orange.png in Resources */,
-				FCAAAA4318EB382800E3A54B /* black.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -377,7 +380,8 @@
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Dylan Bourgeois (DRXTS3ZU8M)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Dylan Bourgeois (DRXTS3ZU8M)";
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -395,6 +399,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "E26788FC-85E9-4BFE-A735-7242DB6E44DA";
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -415,7 +420,8 @@
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Dylan Bourgeois (DRXTS3ZU8M)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Dylan Bourgeois (DRXTS3ZU8M)";
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -426,6 +432,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				PROVISIONING_PROFILE = "E26788FC-85E9-4BFE-A735-7242DB6E44DA";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -436,11 +443,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Dylan Bourgeois (DRXTS3ZU8M)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Dylan Bourgeois (DRXTS3ZU8M)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Resistor/Resistor-Prefix.pch";
 				INFOPLIST_FILE = "Resistor/Resistor-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "E26788FC-85E9-4BFE-A735-7242DB6E44DA";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
@@ -451,11 +461,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Dylan Bourgeois (DRXTS3ZU8M)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Dylan Bourgeois (DRXTS3ZU8M)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Resistor/Resistor-Prefix.pch";
 				INFOPLIST_FILE = "Resistor/Resistor-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "E26788FC-85E9-4BFE-A735-7242DB6E44DA";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};

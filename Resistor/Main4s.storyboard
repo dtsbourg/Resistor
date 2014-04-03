@@ -129,9 +129,9 @@
     </scenes>
     <resources>
         <image name="black.png" width="1920" height="1080"/>
-        <image name="brown.png" width="680" height="480"/>
+        <image name="brown.png" width="320" height="556"/>
         <image name="resistor.png" width="417" height="80"/>
-        <image name="silver.png" width="600" height="300"/>
+        <image name="silver.png" width="1138" height="536"/>
     </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
