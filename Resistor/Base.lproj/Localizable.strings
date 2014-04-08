@@ -1,0 +1,56 @@
+/* 
+  Localizable.strings
+  Resistor
+
+  Created by Dylan Bourgeois on 07/04/14.
+  Copyright (c) 2014 Dylan Bourgeois. All rights reserved.
+*/
+
+/* No comment provided by engineer. */
+"Argenté" = "Argenté";
+
+/* No comment provided by engineer. */
+"Blanc" = "Blanc";
+
+/* No comment provided by engineer. */
+"Bleu" = "Bleu";
+
+/* No comment provided by engineer. */
+"Coefficient de température : %@" = "Coefficient de température : %@";
+
+/* No comment provided by engineer. */
+"Coefficient de température : 100 ppm/°C" = "Coefficient de température : 100 ppm/°C";
+
+/* No comment provided by engineer. */
+"Doré" = "Doré";
+
+/* No comment provided by engineer. */
+"Gris" = "Gris";
+
+/* No comment provided by engineer. */
+"Jaune" = "Jaune";
+
+/* No comment provided by engineer. */
+"Marron" = "Marron";
+
+/* No comment provided by engineer. */
+"Noir" = "Noir";
+
+/* color */
+"Orange" = "Orange";
+
+/* No comment provided by engineer. */
+"Rouge" = "Rouge";
+
+/* No comment provided by engineer. */
+"Tolérance : %@" = "Tolérance : %@";
+
+/* No comment provided by engineer. */
+"Tolérance : ± 10%" = "Tolérance : ± 10%";
+
+/* No comment provided by engineer. */
+"Vert" = "Vert";
+
+/* No comment provided by engineer. */
+"Violet" = "Violet";
+

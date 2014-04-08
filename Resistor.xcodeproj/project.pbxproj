@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FC116CC018F2CBDF00B230FC /* MainiPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC116CC218F2CBDF00B230FC /* MainiPad.storyboard */; };
+		FC116CC518F2CBF800B230FC /* Main4s.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC116CC718F2CBF800B230FC /* Main4s.storyboard */; };
+		FC116CD418F2D34D00B230FC /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = FC116CD618F2D34D00B230FC /* Localizable.strings */; };
 		FCAAA9F818EB10AB00E3A54B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCAAA9F718EB10AB00E3A54B /* Foundation.framework */; };
 		FCAAA9FA18EB10AB00E3A54B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCAAA9F918EB10AB00E3A54B /* CoreGraphics.framework */; };
 		FCAAA9FC18EB10AB00E3A54B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCAAA9FB18EB10AB00E3A54B /* UIKit.framework */; };
@@ -22,8 +25,6 @@
 		FCAAAA2118EB10AB00E3A54B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FCAAAA1F18EB10AB00E3A54B /* InfoPlist.strings */; };
 		FCAAAA2318EB10AB00E3A54B /* ResistorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FCAAAA2218EB10AB00E3A54B /* ResistorTests.m */; };
 		FCAAAA2D18EB347D00E3A54B /* resistor.png in Resources */ = {isa = PBXBuildFile; fileRef = FCAAAA2C18EB347D00E3A54B /* resistor.png */; };
-		FCAAAA4718EBBEBD00E3A54B /* Main4s.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCAAAA4618EBBEBD00E3A54B /* Main4s.storyboard */; };
-		FCAAAA4918EBC01400E3A54B /* MainiPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCAAAA4818EBC01400E3A54B /* MainiPad.storyboard */; };
 		FCAAAA5618EC7CE300E3A54B /* black.png in Resources */ = {isa = PBXBuildFile; fileRef = FCAAAA4A18EC7CE300E3A54B /* black.png */; };
 		FCAAAA5718EC7CE300E3A54B /* blue.png in Resources */ = {isa = PBXBuildFile; fileRef = FCAAAA4B18EC7CE300E3A54B /* blue.png */; };
 		FCAAAA5818EC7CE300E3A54B /* brown.png in Resources */ = {isa = PBXBuildFile; fileRef = FCAAAA4C18EC7CE300E3A54B /* brown.png */; };
@@ -49,11 +50,19 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FC116CBC18F2CB7500B230FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Base; path = "Base.lproj/Resistor-Info.plist"; sourceTree = "<group>"; };
+		FC116CBF18F2CBB500B230FC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
+		FC116CC118F2CBDF00B230FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainiPad.storyboard; sourceTree = "<group>"; };
+		FC116CC418F2CBE400B230FC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/MainiPad.strings; sourceTree = "<group>"; };
+		FC116CC618F2CBF800B230FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main4s.storyboard; sourceTree = "<group>"; };
+		FC116CC918F2CC0000B230FC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main4s.strings; sourceTree = "<group>"; };
+		FC116CD118F2D1E000B230FC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = en; path = "en.lproj/Resistor-Info.plist"; sourceTree = "<group>"; };
+		FC116CD518F2D34D00B230FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Localizable.strings; sourceTree = "<group>"; };
+		FC116CD718F2D35000B230FC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		FCAAA9F418EB10AB00E3A54B /* Resistor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Resistor.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FCAAA9F718EB10AB00E3A54B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		FCAAA9F918EB10AB00E3A54B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		FCAAA9FB18EB10AB00E3A54B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		FCAAA9FF18EB10AB00E3A54B /* Resistor-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Resistor-Info.plist"; sourceTree = "<group>"; };
 		FCAAAA0118EB10AB00E3A54B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		FCAAAA0318EB10AB00E3A54B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		FCAAAA0518EB10AB00E3A54B /* Resistor-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Resistor-Prefix.pch"; sourceTree = "<group>"; };
@@ -69,8 +78,6 @@
 		FCAAAA2018EB10AB00E3A54B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		FCAAAA2218EB10AB00E3A54B /* ResistorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ResistorTests.m; sourceTree = "<group>"; };
 		FCAAAA2C18EB347D00E3A54B /* resistor.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = resistor.png; sourceTree = "<group>"; };
-		FCAAAA4618EBBEBD00E3A54B /* Main4s.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main4s.storyboard; sourceTree = "<group>"; };
-		FCAAAA4818EBC01400E3A54B /* MainiPad.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MainiPad.storyboard; sourceTree = "<group>"; };
 		FCAAAA4A18EC7CE300E3A54B /* black.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = black.png; sourceTree = "<group>"; };
 		FCAAAA4B18EC7CE300E3A54B /* blue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blue.png; sourceTree = "<group>"; };
 		FCAAAA4C18EC7CE300E3A54B /* brown.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = brown.png; sourceTree = "<group>"; };
@@ -144,13 +151,14 @@
 			children = (
 				FCAAAA0618EB10AB00E3A54B /* AppDelegate.h */,
 				FCAAAA0718EB10AB00E3A54B /* AppDelegate.m */,
-				FCAAAA4618EBBEBD00E3A54B /* Main4s.storyboard */,
-				FCAAAA4818EBC01400E3A54B /* MainiPad.storyboard */,
+				FC116CC718F2CBF800B230FC /* Main4s.storyboard */,
+				FC116CC218F2CBDF00B230FC /* MainiPad.storyboard */,
 				FCAAAA0918EB10AB00E3A54B /* Main.storyboard */,
 				FCAAAA0C18EB10AB00E3A54B /* ViewController.h */,
 				FCAAAA0D18EB10AB00E3A54B /* ViewController.m */,
 				FCAAAA0F18EB10AB00E3A54B /* Images.xcassets */,
 				FCAAA9FE18EB10AB00E3A54B /* Supporting Files */,
+				FC116CD618F2D34D00B230FC /* Localizable.strings */,
 			);
 			path = Resistor;
 			sourceTree = "<group>";
@@ -171,7 +179,7 @@
 				FCAAAA5418EC7CE300E3A54B /* white.png */,
 				FCAAAA5518EC7CE300E3A54B /* yellow.png */,
 				FCAAAA2C18EB347D00E3A54B /* resistor.png */,
-				FCAAA9FF18EB10AB00E3A54B /* Resistor-Info.plist */,
+				FC116CBD18F2CB7500B230FC /* Resistor-Info.plist */,
 				FCAAAA0018EB10AB00E3A54B /* InfoPlist.strings */,
 				FCAAAA0318EB10AB00E3A54B /* main.m */,
 				FCAAAA0518EB10AB00E3A54B /* Resistor-Prefix.pch */,
@@ -291,8 +299,9 @@
 				FCAAAA5718EC7CE300E3A54B /* blue.png in Resources */,
 				FCAAAA5D18EC7CE300E3A54B /* purple.png in Resources */,
 				FCAAAA2D18EB347D00E3A54B /* resistor.png in Resources */,
-				FCAAAA4918EBC01400E3A54B /* MainiPad.storyboard in Resources */,
-				FCAAAA4718EBBEBD00E3A54B /* Main4s.storyboard in Resources */,
+				FC116CC018F2CBDF00B230FC /* MainiPad.storyboard in Resources */,
+				FC116CD418F2D34D00B230FC /* Localizable.strings in Resources */,
+				FC116CC518F2CBF800B230FC /* Main4s.storyboard in Resources */,
 				FCAAAA0B18EB10AB00E3A54B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -337,6 +346,42 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		FC116CBD18F2CB7500B230FC /* Resistor-Info.plist */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC116CBC18F2CB7500B230FC /* Base */,
+				FC116CD118F2D1E000B230FC /* en */,
+			);
+			name = "Resistor-Info.plist";
+			sourceTree = "<group>";
+		};
+		FC116CC218F2CBDF00B230FC /* MainiPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC116CC118F2CBDF00B230FC /* Base */,
+				FC116CC418F2CBE400B230FC /* en */,
+			);
+			name = MainiPad.storyboard;
+			sourceTree = "<group>";
+		};
+		FC116CC718F2CBF800B230FC /* Main4s.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC116CC618F2CBF800B230FC /* Base */,
+				FC116CC918F2CC0000B230FC /* en */,
+			);
+			name = Main4s.storyboard;
+			sourceTree = "<group>";
+		};
+		FC116CD618F2D34D00B230FC /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC116CD518F2D34D00B230FC /* Base */,
+				FC116CD718F2D35000B230FC /* en */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
 		FCAAAA0018EB10AB00E3A54B /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -349,6 +394,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				FCAAAA0A18EB10AB00E3A54B /* Base */,
+				FC116CBF18F2CBB500B230FC /* en */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -399,7 +445,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				ONLY_ACTIVE_ARCH = YES;
-				PROVISIONING_PROFILE = "E26788FC-85E9-4BFE-A735-7242DB6E44DA";
+				PROVISIONING_PROFILE = "16243FF3-8CF9-4CD3-BB2A-198F74DA7044";
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -432,7 +478,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				PROVISIONING_PROFILE = "E26788FC-85E9-4BFE-A735-7242DB6E44DA";
+				PROVISIONING_PROFILE = "16243FF3-8CF9-4CD3-BB2A-198F74DA7044";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -450,7 +496,7 @@
 				INFOPLIST_FILE = "Resistor/Resistor-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "E26788FC-85E9-4BFE-A735-7242DB6E44DA";
+				PROVISIONING_PROFILE = "16243FF3-8CF9-4CD3-BB2A-198F74DA7044";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
@@ -468,7 +514,7 @@
 				INFOPLIST_FILE = "Resistor/Resistor-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "E26788FC-85E9-4BFE-A735-7242DB6E44DA";
+				PROVISIONING_PROFILE = "16243FF3-8CF9-4CD3-BB2A-198F74DA7044";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
@@ -533,6 +579,7 @@
 				FCAAAA2818EB10AB00E3A54B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FCAAAA2918EB10AB00E3A54B /* Build configuration list for PBXNativeTarget "ResistorTests" */ = {
 			isa = XCConfigurationList;
@@ -541,6 +588,7 @@
 				FCAAAA2B18EB10AB00E3A54B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

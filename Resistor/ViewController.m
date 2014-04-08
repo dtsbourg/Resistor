@@ -43,10 +43,9 @@
     
     self.tolArray = [[NSArray alloc]initWithObjects:NSLocalizedString(@"Argenté", nil), NSLocalizedString(@"Doré", nil),
                      NSLocalizedString(@"Marron", nil), NSLocalizedString(@"Rouge", nil),
-                     NSLocalizedString(@"Orange", @"color"), NSLocalizedString(@"Jaune", nil),
                      NSLocalizedString( @"Vert", nil), NSLocalizedString(@"Bleu", nil),
                      NSLocalizedString(@"Violet", nil), nil];
-    self.segTolArray = [[NSArray alloc]initWithObjects:@"silver.png",@"gold.png",@"brown.png",@"red.png", @"orange.png",@"yellow.png",@"green.png",@"blue.png",@"purple.png", nil];
+    self.segTolArray = [[NSArray alloc]initWithObjects:@"silver.png",@"gold.png",@"brown.png",@"red.png",@"green.png",@"blue.png",@"purple.png", nil];
     
     
     self.tempArray = [[NSArray alloc]initWithObjects:NSLocalizedString(@"Marron", nil), NSLocalizedString(@"Rouge", nil),
@@ -107,7 +106,12 @@
             return 10;
             break;
         case 3:
-            return 10;
+            if ([self.nbBandes.text isEqualToString:@"4"])
+            {
+                return 7;
+            }
+            else
+                return 10;
             break;
         case 4:
             return 7;
@@ -139,7 +143,12 @@
             return [self.colorArray objectAtIndex:row];
             break;
         case 3:
-            return [self.multiplierArray objectAtIndex:row];
+            if ([self.nbBandes.text isEqualToString:@"4"])
+            {
+                return [self.tolArray objectAtIndex:row];
+            }
+            else
+                return [self.multiplierArray objectAtIndex:row];
             break;
         case 4:
             return [self.tolArray objectAtIndex:row];
@@ -214,6 +223,36 @@
             break;
             
         case 3:
+            if ([self.nbBandes.text isEqualToString:@"4"])
+            {
+                
+                self.seg5.image=[UIImage imageNamed:[self.segTolArray objectAtIndex:row]];
+                switch(row)
+                {
+                    case 0:
+                        self.tolString = @"± 10%";
+                        break;
+                    case 1:
+                        self.tolString = @"± 5%";
+                        break;
+                    case 2:
+                        self.tolString = @"± 1%";
+                        break;
+                    case 3:
+                        self.tolString = @"± 2%";
+                        break;
+                    case 4:
+                        self.tolString = @"± 0.5%";
+                        break;
+                    case 5:
+                        self.tolString = @"± 0.25%";
+                        break;
+                    case 6:
+                        self.tolString = @"± 0.1%";
+                        break;
+                }
+            }
+            else {
             self.seg4.image=[UIImage imageNamed:[self.segMultArray objectAtIndex:row]];
             switch(row)
             {
@@ -248,12 +287,14 @@
                     multiplier = 10000000;
                     break;
             }
+            }
             break;
             
         case 4:
             self.seg5.image=[UIImage imageNamed:[self.segTolArray objectAtIndex:row]];
             switch(row)
             {
+                    
                 case 0:
                     self.tolString = @"± 10%";
                     break;
@@ -302,13 +343,15 @@
     }
     
     if (((firstDigit+secondDigit*10+thirdDigit*100)*multiplier) < 100)
-    self.resistorValue.text = [NSString stringWithFormat:@"%.0f Ω", ((firstDigit+secondDigit*10+thirdDigit*100)*multiplier)];
+    self.resistorValue.text = [NSString stringWithFormat:@"%.2f Ω", ((firstDigit+secondDigit*10+thirdDigit*100)*multiplier)];
     else if (((firstDigit+secondDigit*10+thirdDigit*100)*multiplier) < 1000)
-    self.resistorValue.text = [NSString stringWithFormat:@"%.0f Ω", ((firstDigit+secondDigit*10+thirdDigit*100)*multiplier)];
+    self.resistorValue.text = [NSString stringWithFormat:@"%.2f Ω", ((firstDigit+secondDigit*10+thirdDigit*100)*multiplier)];
     else if (((firstDigit+secondDigit*10+thirdDigit*100)*multiplier) < 1000000)
     self.resistorValue.text = [NSString stringWithFormat:@"%.2f kΩ", ((firstDigit+secondDigit*10+thirdDigit*100)*multiplier)/1000];
     else if (((firstDigit+secondDigit*10+thirdDigit*100)*multiplier) < 1000000000)
-    self.resistorValue.text = [NSString stringWithFormat:@"%.2f GΩ", ((firstDigit+secondDigit*10+thirdDigit*100)*multiplier)/1000000];
+    self.resistorValue.text = [NSString stringWithFormat:@"%.2f MΩ", ((firstDigit+secondDigit*10+thirdDigit*100)*multiplier)/1000000];
+    else
+    self.resistorValue.text = [NSString stringWithFormat:@"%.2f GΩ", ((firstDigit+secondDigit*10+thirdDigit*100)*multiplier)/1000000000];
     
     self.temperatureLabel.text = [NSString stringWithFormat:NSLocalizedString(@"Coefficient de température : %@", nil), self.temperatureString];
     
@@ -339,9 +382,11 @@
         self.seg5.image = [UIImage imageNamed:@"black.png"];
         
     }
-    for (int i=0; i< value; i++) {
-        [self.picker selectRow:0 inComponent:i animated:NO];
-    }
+    
+    
+    
+    self.resistorValue.text = @"0.00 Ω";
+    self.toleranceLabel.text = @"Tolerance ±10%";
     [self.picker reloadAllComponents];
 }
 
